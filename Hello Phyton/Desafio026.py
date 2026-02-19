@@ -1,0 +1,8 @@
+frase = str(input('Digite uma frase: '))
+n = frase.count("A")
+c = frase.find("A")
+g = frase.rfind("A")
+print('A letra "A" aparece {} vezes'.format(n))
+print('Ela aparece na posição {}'.format(c))
+print('Ela aparece pela última vez na posição {}'.format(g))
+c = input('pressione Enter para fechar!')
